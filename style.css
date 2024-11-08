@@ -1,0 +1,57 @@
+body {
+    background-image: url('computer.png');
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+   /* color: #333;*/        /* to change the colour to Black of navigations text only */
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    /*color: #333;*/  /* to change the colour of text in Header navigation bar*/
+}
+
+.container {
+   /* padding: 2rem;
+    margin: 1rem 0;*/
+    color: rgb(98, 136, 24);                      /* colour for the computer picture*/
+    text-align: center;
+    font-size: 25px;
+    /* background-color: #fff; */              /* to give it in box effect*/
+    /*border-radius: 1px;*/
+    border: 2px solid black; /* Adds a solid border */
+    padding: 20px;          /* Adds space inside the border */
+    margin: 20px;           /* Adds space outside the border */
+    background-color: lightgrey; /* Sets the background color */
+    width: 400px;           /* Sets the width of the box */
+    opacity: 0.8;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+}
